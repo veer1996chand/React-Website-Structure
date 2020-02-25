@@ -1,0 +1,28 @@
+/*Tabs*/
+.themeTabs{
+	padding: 12px 12px 12px 12px;
+
+}
+
+.themebgColor{
+	color: #6c757d!important;  
+	text-decoration: none;
+}
+
+
+.themebgColor:hover{
+	background-color: #972445;
+	color:white!important;
+	text-decoration: none;
+}
+
+/* .themebgColor.active{
+	background-color: #972445;
+	color:white!important;
+	text-decoration: none;
+} */
+
+.themebgColor:focus{
+	background-color:#972445;
+	color:white!important;
+}

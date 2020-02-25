@@ -1,0 +1,193 @@
+
+.AtextAnimation{
+    content: "";
+    position: relative;
+    color: black;
+    left:0px;  
+    top: 0px;   
+    -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    -webkit-animation-name: textExample; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 30s; /* Safari 4.0 - 8.0 */
+    
+    animation-iteration-count:infinite;
+    animation-name: textExample;
+    animation-duration: 30s;
+
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes textExample { 
+    0%   {content: "your beloved ones by your side.";  opacity: 0;}
+    16% { opacity: 1;}  
+    18% { opacity: 0;}
+    60%  { content: "to sleep safely in your cab.";opacity: 1;} 
+    71% { opacity: 0;} 
+    100% { content: "help when you’re alone."; opacity: 1;}
+}
+/* Standard syntax */
+@keyframes textExample {
+    0%   {content: "your beloved ones by your side.";  opacity: 0;}
+    16% { opacity: 1;}  
+    18% { opacity: 0;}
+    60%  { content: "to sleep safely in your cab.";opacity: 1;} 
+    71% { opacity: 0;} 
+    100% { content: "help when you’re alone."; opacity: 1;}
+}
+
+/* --------------    End A Text Animation -------------------------- */
+
+
+/* --------------     Text Animation -------------------------- */
+
+.textAnimation{ 
+    position: relative;
+    color: black;
+    left:0px;  
+    top: 0px;   
+    -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+    -webkit-animation-name: textExample; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
+    
+    animation-iteration-count:infinite;
+    animation-name: textExample;
+    animation-duration: 3s;
+
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes textExample { 
+    0% { opacity: 0;}
+    90% { opacity: 1;}
+    100% { opacity: 0;}
+} 
+/* Standard syntax */
+@keyframes textExample {
+    0% { opacity: 0;}
+    90% { opacity: 1;}
+    100% { opacity: 0;}
+}
+ 
+
+/* --------------     End Text Animation -------------------------- */
+
+
+/*-------------- Verstical Top Animation Only --------------*/
+.verticalTopAnimation:before {
+	left:0px;  
+    top: -25px;   
+    background-color: black; 
+ 
+}
+/* vertical Animation */
+.verticalTopAnimation:before { 
+    content: ""; 
+    position: absolute;  
+    width: 15%;
+    height: 25px;
+    top:0px;
+    left:0px;  
+    background-color:black;
+    
+    -webkit-animation-name: verticalTopExample1; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    
+    animation-name: verticalTopExample1;
+    animation-duration: 4s;
+    
+}
+/* 111111111111111111111111111111111111 */
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes verticalTopExample1 {
+  from {width: 0%;}
+  to {width: 15%;}
+}
+/* Standard syntax */
+@keyframes verticalTopExample1 {
+  from {width: 0%; }
+  to {width: 15%;}
+}
+ 
+
+/*-------------- End Verstical Top Animation Only --------------*/
+
+/* --------------     vertical Animation -------------------------- */
+.verticalAnimation:before {
+	left:0px;  
+    top: -25px;   
+    background-color: black; 
+ 
+}
+.verticalAnimation:after { 
+    right:0px;
+    top:100%;  
+    background-color:#AE353F;  
+}
+
+/* vertical Animation */
+.verticalAnimation:before,
+.verticalAnimation:after{ 
+    content: ""; 
+    position: absolute;  
+    width: 50%;
+    height: 25px;  
+    
+    -webkit-animation-name: verticalExample; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    
+    animation-name: verticalExample;
+    animation-duration: 4s;
+    
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes verticalExample {
+  from {width: 0%;}
+  to {width: 50%;}
+}
+/* Standard syntax */
+@keyframes verticalExample {
+  from {width: 0%;}
+  to {width: 50%;}
+}
+
+
+/*-------------------- horizontal Animation --------------------------------*/
+.horizontalAnimation:before{
+	left:-10px;  
+    top: -10px;    
+    background-color: black; 
+ 
+}
+
+.horizontalAnimation:after{ 
+    right:-10px;
+    top:50%;  
+    background-color:#AE353F;  
+}
+.horizontalAnimation:before,
+.horizontalAnimation:after{ 
+    content: ""; 
+    position: relative;  
+    width: 25px;
+    height: 50%;  
+    
+    -webkit-animation-name: horizontalExample; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    
+    animation-name: horizontalExample;
+    animation-duration: 4s;
+    
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes horizontalExample {
+    from {height: 0%;}
+    to {height: 50%;}
+}
+/* Standard syntax */
+@keyframes horizontalExample {
+    from {height: 0%;}
+    to {height: 50%;}
+}
+
+ 

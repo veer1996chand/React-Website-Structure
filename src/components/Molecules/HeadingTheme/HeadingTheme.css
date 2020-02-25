@@ -1,0 +1,17 @@
+.heading-outer
+{
+    margin: 0;
+    padding: 0;
+    font-size: 36px;
+}
+ 
+
+.heading-outer:before {
+    display: inline-block;
+    margin: 0px 10px 0px 0;
+    height: 33px;
+    content: " ";
+    text-shadow: none;
+    background-color:#CF4954;
+    width: 5px;
+}

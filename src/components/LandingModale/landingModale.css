@@ -1,0 +1,20 @@
+.close-icon{
+    position: absolute;
+    top: 2;
+    right: 0;
+    z-index:1;
+}
+
+
+/* ----------  Teliphone No ----------------- */
+/* Chrome, Safari, Edge, Opera */
+.telPhoneInput::-webkit-outer-spin-button,
+.telPhoneInput::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.telPhoneInput[type=number] {
+  -moz-appearance:textfield;
+}

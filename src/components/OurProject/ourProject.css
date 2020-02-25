@@ -1,0 +1,29 @@
+
+/* Card size CardWithImage */
+.cardSize{
+    margin-left: 10px;
+    margin-right:10px;
+    height:100%;  
+}
+
+/* Round Image size */
+.imageClass{
+    width:100px;
+    height:100px;
+}
+
+/* -----------------------   Image Classes---------------------------------------------------- */
+ 
+
+  /* -----------------------  End Image Classes---------------------------------------------------- */
+
+  /* ------------------------------  Local Responsive ---------------------------- */
+
+/* Micro Media Query */
+/* Gif size of Features */
+.imageGif{
+    height:500px;
+    width: 250px;
+    border-radius: 40px;
+  }
+ 

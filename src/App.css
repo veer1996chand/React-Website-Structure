@@ -1,0 +1,165 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* ---------------------  Menual Classes ----------------------------- */
+/* Theme Text */
+.headings{
+  font-size: 3rem;
+  font-family:'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.subHeading{
+  font-size: calc(20px + .2vw);
+  font-family:'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.content{
+  font-size: 20px;
+  font-family:'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+/* BackGround Color */
+.themeBgA
+{
+  background-color: #CF4954;
+}
+.themeBgB
+{
+  background-color: #AE353F;
+}
+.themeBgC
+{
+  background-color: #A5313B;
+}
+.themeBlack{
+  background-color: black;
+}
+
+/* Text Color */
+.textColorA
+{
+  color: #CF4954;
+}
+.textColorB
+{
+  color: #AE353F;
+}
+.textColorC
+{
+  color: #A5313B;
+}
+
+/* Button class */
+.btn-info{
+  background-color: #CF4954;
+}
+
+
+
+/*------------------------- External Properties ------------------------------------------*/
+
+/* Cards Shadow of all the card which i used in the website */
+.card-shadow{
+  box-shadow: 0px 0px 15px grey;
+}
+
+
+
+/*----------------- End External Properties ------------------------------------------*/
+
+
+
+
+/* Globale Component in website  */
+.contactSymbol{
+  position: fixed;
+  z-index:4;
+  right: 0px;
+  bottom: 0px;
+}
+/* End Globale Component in website */
+
+/* ------------------------------  Position ---------------------------- */
+/* Nav Bar */
+.sticky-bottom{
+  position: sticky;
+  bottom: 0;
+}
+
+/* ------------------------------ END  Position ---------------------------- */
+
+/* ------------------------------  Local Responsive ---------------------------- */
+
+/* Micro Media Query */
+.MainSectionBody{
+  margin-top: 100px;
+} 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .MainSectionBody {margin-top: 100px;}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .MainSectionBody {margin-top: 100px;}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .MainSectionBody {margin-top: 100px;}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .MainSectionBody {margin:70px 0px 0px 0px}
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .MainSectionBody {margin-top: 100px;}
+}

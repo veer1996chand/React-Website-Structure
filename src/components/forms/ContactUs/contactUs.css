@@ -1,0 +1,7 @@
+.contactSymbol{
+    position: fixed;
+    z-index:4;
+    right: -15px;
+    bottom: 50%;
+    cursor: pointer;
+  }

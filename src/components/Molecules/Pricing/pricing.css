@@ -1,0 +1,26 @@
+/* .cardBody{
+    margin-top: 0px;
+}
+
+
+.Cardcontent{
+    font-size: 18px;
+} */
+.price-card
+{
+    margin: 0px;
+    padding: 0px;
+    width: 18rem;
+    border-radius: 10px;
+    
+} 
+/* .price-card:hover{
+    background-color: #CF4954;
+    color: antiquewhite;
+    cursor: pointer;
+
+}  */
+.priceCardHeader{
+    margin-top: 30px; 
+
+}

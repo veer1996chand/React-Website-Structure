@@ -1,0 +1,27 @@
+.fromBody::before{
+    /* content:'';
+    position:absolute;
+    background:black;
+    top:50%; bottom:0%;
+    left:0%; 
+    width:100%; */
+}
+.fromRow{
+    
+  
+    background-image:
+        linear-gradient(to right,#CF4954, #CF4954), /* gradient 1 as solid color */
+        linear-gradient(to right, white, white), /* gradient 2 as solid  color */
+        url(''); /* image */
+    background-repeat: no-repeat; /* same as no-repeat, no-repeat, no-repeat */
+    background-position:
+        0 0, /* gradient 1 */
+        0 50%, /* gradient 2 */ 
+        0 0; /* image position */
+    background-size:
+        100% 50%,
+        100% 100%, 
+        100% 100%;
+}
+ 
+   
